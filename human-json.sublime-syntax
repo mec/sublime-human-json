@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: Human JSON
+file_extensions: [json]
+scope: source.json
+contexts:
+  main:
+    - match: (".*")\s*:\s*(".*")
+      captures: 
+        1: keyword.json
+        2: string.json
+    - match: (".*")\s*:\s*
+      captures:
+        1: keyword.json
