@@ -4,7 +4,7 @@ I know it's technically right, but I find JSON hard to read in Sublime Text. I t
 
 The aim was to replicate the default in Atom.
 
-[[https://github.com/mec/sublime-human-json/blob/master/screen.png|alt=screenshot]]
+![Screenshot](https://github.com/mec/sublime-human-json/blob/master/screen.png)
 
 ## Install
 
