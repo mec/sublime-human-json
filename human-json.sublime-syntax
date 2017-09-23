@@ -6,10 +6,8 @@ file_extensions: [json]
 scope: source.json
 contexts:
   main:
-    - match: (".*")\s*:\s*(".*")
+    - match: (".*")\s*:|(".*")\s*,|(".*")
       captures: 
         1: keyword.json
         2: string.json
-    - match: (".*")\s*:\s*
-      captures:
-        1: keyword.json
+        3: string.json
